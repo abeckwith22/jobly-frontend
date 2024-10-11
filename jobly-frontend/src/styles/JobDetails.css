@@ -1,0 +1,36 @@
+.JobDetails {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.JobDetails-Form-Button {
+    margin: 0.5em;
+    border: none;
+    border-radius: 0.6em;
+    text-align: center;
+    padding: 0.9em;
+    width: 10em;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+}
+
+.JobDetails-Form-Button:hover {
+    background-color: #b21030;
+    cursor: pointer;
+}
+
+.JobDetails-Form-Button:active {
+    background-color: #990d29;
+}
+
+#JobDetails-Form-btn-applied {
+    background-color: #990d29;
+    pointer-events: none;
+}
+
+
+

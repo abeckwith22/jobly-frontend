@@ -1,0 +1,10 @@
+.Jobs {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.Jobs ul li {
+    list-style-type: none;
+    margin: 0.5em;
+}

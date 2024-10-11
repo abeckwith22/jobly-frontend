@@ -1,0 +1,24 @@
+.JobCard {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.4em;
+    background-color: #2a4075;
+    color: white;
+}
+
+.JobCard-Links a {
+    text-decoration: none;
+    color: white;
+}
+
+.JobCard-Links nav {
+    border-radius: 0.2em;
+}
+
+.JobLink:hover {
+    background-color: #172554;
+}
+
+.CompanyLink:hover {
+    background-color: #172554;
+}

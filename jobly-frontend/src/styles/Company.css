@@ -1,0 +1,28 @@
+.Company * {
+    text-decoration: none;
+    color: #ddddff;
+}
+
+.Company nav {
+    background-color: transparent;
+    border-radius: 0.4em;
+    padding: 0.5em;
+}
+
+.Company nav:hover {
+    background-color: #172554;
+    padding: 0.5em;
+}
+
+.Company p * {
+    padding-left: 2em;
+}
+
+.Company-div {
+    padding: 2em;
+    background-color: darkslateblue;
+    color: white;
+}
+.Company-div p {
+    padding-left: 2em;
+}

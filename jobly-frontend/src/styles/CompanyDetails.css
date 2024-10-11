@@ -1,0 +1,21 @@
+.CompanyDetails {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.CompanyDetails .Company-div {
+    border-radius: inherit;
+}
+
+.JobListDiv {
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: #3b3272;
+}
+
+.Job {
+    list-style: none;
+}

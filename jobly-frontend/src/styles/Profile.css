@@ -1,0 +1,10 @@
+.profileInput {
+    padding-left: 10px;
+}
+
+/* Username should not be edited because it can/will cause duplicate keys to form */
+#profileUsername { 
+    pointer-events: none;
+    background-color: #aaaaaa;
+}
+
