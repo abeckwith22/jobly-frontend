@@ -1,1 +1,0 @@
-sh -c "cd ../jobly-backend/ && psql < jobly.sql && cd ../jobly-frontend";
