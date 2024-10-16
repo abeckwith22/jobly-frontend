@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run start-fe\" \"npm run start-be\"",
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
