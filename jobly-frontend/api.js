@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "https://localhost:3001";
+// const BASE_URL = process.env.REACT_APP_BASE_URL || "https://localhost:3001";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "https://jobly-backend-x8r1.onrender.com"; // vite doesn't like environment variables so were going to add the backend url here to test if it works!
 
 /** API Class.
  *
@@ -15,7 +16,8 @@ class JoblyApi {
   static token;
 
   static async request(endpoint, data = {}, method = "get") {
-    console.debug("API Call:", endpoint, data, method);
+    console.debug("API Call:", endpoint, data, method);         
+    console.debug("ENVIRONMENT VARIABLES:", process.env);
 
     //there are multiple ways to pass an authorization token, this is how you pass it in the header.
     //this has been provided to show you another way to pass the token. you are only expected to read this code for this project.
@@ -49,7 +51,6 @@ class JoblyApi {
   /** Gets token from user with { username, password } */
 
   static async getToken(user){
-    // console.log(user);
     let res = await this.request(`auth/token`, user, "post");
     return res.token;
   }
